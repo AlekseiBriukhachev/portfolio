@@ -9,6 +9,13 @@
     height: 340px;
     color: $promo-color;
     z-index: 3;
+    &__link {
+        &:hover {
+            svg path {
+                fill: red;
+            }
+        }
+    }
     &__divider {
         height: 70px;
         width: 2px;
