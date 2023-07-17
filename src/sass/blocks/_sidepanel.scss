@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     height: 340px;
-    color: $promo-color;
+    color: $main-color;
     z-index: 3;
     &__link {
         &:hover {
@@ -19,7 +19,7 @@
     &__divider {
         height: 70px;
         width: 2px;
-        background: $promo-color;
+        background: $main-color;
     }
     &__text {
         height: 150px;
