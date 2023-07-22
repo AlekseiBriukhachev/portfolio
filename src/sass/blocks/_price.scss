@@ -12,7 +12,7 @@
     &__item {
         position: relative;
         display: grid;
-        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, 1fr);
+        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
         row-gap: 5px;
         padding-left: 25px;
         &::before {
@@ -24,16 +24,13 @@
             position: absolute;
             top: 5px;
         }
-        &-title {
+        &-title, &-price {
             position: relative;
             font-size: 14px;
             font-weight: 700;
             line-height: 21px;
         }
         &-price {
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 21px;
             justify-self: end;
         }
         &-descr {
