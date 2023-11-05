@@ -1,8 +1,8 @@
 .promo {
-    min-height: 100vh;
+    min-height: 40vh;
     position: relative;
-    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
-    padding-top: 378px;
+    background: url('../img/main_bg_1.jpg') no-repeat 0%/cover;
+    padding-top: 173px;
     &__title {
         width: 535px;
         margin-top: 10px;
@@ -29,5 +29,8 @@
             color:$promo-color;
             text-decoration: none;
         }
+    }
+    &__wrapper {
+        margin-left: 50%;
     }
 }
