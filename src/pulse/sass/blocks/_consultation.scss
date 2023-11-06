@@ -1,0 +1,21 @@
+.consultation {
+    background: url('../../img/consultation.jpg');
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .error {
+        color: #fff;
+        border: 1px solid red;
+        box-shadow: 1px 1px 14px red inset;
+    }
+    label.error {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
+}
