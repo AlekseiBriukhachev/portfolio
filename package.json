@@ -18,5 +18,8 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.63.6"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0"
+  }
 }

@@ -586,7 +586,7 @@
                         Or leave your details and I will write to you myself:
                     </div>
 
-                    <form action="#" class="contacts__form">
+                    <form id="emailForm" class="contacts__form">
                         <div class="contacts__input">
                             <input required name="name" id="name" type="text">
                             <label for="name">Your name</label>
@@ -596,11 +596,12 @@
                             <label for="email">Your mail</label>
                         </div>
                         <div class="contacts__textarea">
-                            <textarea name="text" id="text"></textarea>
+                            <textarea name="text" id="messageText"></textarea>
                             <label for="text">Your message</label>
                         </div>
+                        <!-- <button type="button" onclick="sendEmail()">Отправить</button> -->
                         <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Send a message</button>
+                            <button class="contacts__btn btn" onclick="sendEmail()">Send a message</button>
                             <div class="contacts__policy">
                                 <input required type="checkbox">
                                 <span>I agree with <a href="/policy.html">privacy policy</a></span>
@@ -611,6 +612,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
